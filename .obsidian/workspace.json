@@ -4,67 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "cd4e52c1787988b6",
+        "id": "1154a1c48c7d897a",
         "type": "tabs",
         "children": [
           {
-            "id": "cac1f513f4916db8",
+            "id": "61c942a1f2db00d3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PTIT Resource.md",
+                "file": "Design Pattern/1.  Design Pattern overview.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "PTIT Resource"
-            }
-          },
-          {
-            "id": "55cfb486644e83e0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Build your own Skynet.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Build your own Skynet"
-            }
-          },
-          {
-            "id": "28f315f3234ab2e0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Proxmox Guideline/Sử dụng GPU trên ubuntu vm.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Sử dụng GPU trên ubuntu vm"
-            }
-          },
-          {
-            "id": "bdbb5ea862357fbc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Build your own Skynet/Khóa học & Tài liệu 1bfd3d175d2380d68b77e9153e7f307b/Hugging Face - AI Agents Course.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Hugging Face - AI Agents Course"
+              "title": "1.  Design Pattern overview"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -211,34 +168,35 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "28f315f3234ab2e0",
+  "active": "61c942a1f2db00d3",
   "lastOpenFiles": [
-    "Proxmox Guideline/Sử dụng GPU trên LXC.md",
-    "Proxmox Guideline/Passthrough GPU.md",
-    "Proxmox Guideline/Passthrough Disk.md",
-    "Proxmox Guideline/Making a Ubuntu 24 04 VM Template for Proxmox and  CloudInit.md",
-    "Proxmox Guideline/Milestone 18ed3d175d23802ea472e2486609b155.md",
-    "Tự học DSA dư nào ✌️.md",
-    "Build your own Skynet/Project sswc 1e2d3d175d2380a3b909dcbb29aa885f.md",
-    "Template 1bfd3d175d23801098bfc256cc404016.md",
-    "Teamspace Home 1b4d3d175d238055a950df94237813fa.md",
-    "Survey Workshop 1c9d3d175d2380cea001d26c2a2f79f8.md",
-    "Software Architect 194d3d175d23804991aaf4067dbab47f.md",
-    "Sally planning 1c0d3d175d238078b3c3ee12fce047f1.md",
-    "Build your own Skynet.md",
+    "Design Pattern/22. Visitor.md",
+    "Design Pattern/21. Template Method.md",
+    "Design Pattern/20. Strategy.md",
+    "Design Pattern/19. State.md",
+    "Design Pattern/1.  Design Pattern overview.md",
+    "Design Pattern/18. Observer.md",
+    "Design Pattern/17. Memento.md",
+    "Design Pattern/16. Mediator.md",
+    "Design Pattern/15. Iterator.md",
+    "Design Pattern/14. Command.md",
+    "Design Pattern/13. Chain of Responsibility.md",
+    "Design Pattern/12. Proxy.md",
+    "Design Pattern/11. Flyweight.md",
+    "Design Pattern/11. Facade.md",
+    "Design Pattern/10. Decorator.md",
+    "Design Pattern/9. Composite.md",
+    "Design Pattern/8. Bridge.md",
+    "Design Pattern/7. Adapter.md",
+    "Design Pattern/6. Singleton.md",
+    "Design Pattern/5. Prototype.md",
+    "Design Pattern/4. Builder.md",
+    "Design Pattern/3. Abstract Factory.md",
+    "Design Pattern/2. Factory Method.md",
+    "Untitled.md",
     "AWS Solution Architect.md",
-    "Software Architect/Validation thật VIP PRO trong Spring.md",
-    "Template 1bfd3d175d23801098bfc256cc404016/Features list Backlog 1bfd3d175d238016bb13dcd5ff712206/1 Log in 1bfd3d175d2381b78845c9be9ddb9270.md",
-    "Software Architect/Simple Roadmap.md",
-    "Software Architect/Simple Guide to Connection Pooling Java.md",
-    "Software Architect/Seperate App layer from framework.md",
-    "Software Architect/Resilient và Fault Tolerant trong microservice.md",
-    "Software Architect/Kafka Beginner.md",
-    "Software Architect/JWT Basic.md",
-    "Software Architect/Java Custom Annotation.md",
-    "Software Architect/Java Concurrent.md",
-    "Software Architect/Function Interface.md",
-    "Software Architect/Cách handle exception hiệu quả hơn trong Spring.md",
+    "Design Pattern",
+    "Build your own Skynet/Khóa học & Tài liệu 1bfd3d175d2380d68b77e9153e7f307b/Hugging Face - AI Agents Course.md",
     "AWS Solution Architect 188d3d175d2380879d8cf4a10c1b974c/SAA-C03 Notes/Overview 198d3d175d238062bd4edc59cced5fd4/image.png"
   ]
 }
