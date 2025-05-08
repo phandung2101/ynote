@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Design Pattern/1.  Design Pattern overview.md",
+                "file": "Design Pattern/2. Factory Method.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1.  Design Pattern overview"
+              "title": "2. Factory Method"
             }
           }
         ]
@@ -170,11 +170,11 @@
   },
   "active": "61c942a1f2db00d3",
   "lastOpenFiles": [
+    "Design Pattern/1.  Design Pattern overview.md",
     "Design Pattern/22. Visitor.md",
     "Design Pattern/21. Template Method.md",
     "Design Pattern/20. Strategy.md",
     "Design Pattern/19. State.md",
-    "Design Pattern/1.  Design Pattern overview.md",
     "Design Pattern/18. Observer.md",
     "Design Pattern/17. Memento.md",
     "Design Pattern/16. Mediator.md",
