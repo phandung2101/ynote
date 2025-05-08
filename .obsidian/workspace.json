@@ -1,0 +1,244 @@
+{
+  "main": {
+    "id": "28462f6c55b8412e",
+    "type": "split",
+    "children": [
+      {
+        "id": "cd4e52c1787988b6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cac1f513f4916db8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PTIT Resource.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "PTIT Resource"
+            }
+          },
+          {
+            "id": "55cfb486644e83e0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Build your own Skynet.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Build your own Skynet"
+            }
+          },
+          {
+            "id": "28f315f3234ab2e0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Proxmox Guideline/Sử dụng GPU trên ubuntu vm.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Sử dụng GPU trên ubuntu vm"
+            }
+          },
+          {
+            "id": "bdbb5ea862357fbc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Build your own Skynet/Khóa học & Tài liệu 1bfd3d175d2380d68b77e9153e7f307b/Hugging Face - AI Agents Course.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Hugging Face - AI Agents Course"
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d22b7f4426b411ad",
+    "type": "split",
+    "children": [
+      {
+        "id": "7c1ee4513fc8af80",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5f7b0696e3a47479",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "97c20ece75acb656",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "310dbf2e7d777a2b",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "ff06b67d605dec38",
+    "type": "split",
+    "children": [
+      {
+        "id": "8ed19fbce0ff969c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ef70edcc408fcfa4",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Proxmox Guideline/Sử dụng GPU trên ubuntu vm.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Sử dụng GPU trên ubuntu vm"
+            }
+          },
+          {
+            "id": "b75f698d71fb532e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Proxmox Guideline/Sử dụng GPU trên ubuntu vm.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Sử dụng GPU trên ubuntu vm"
+            }
+          },
+          {
+            "id": "fae4f7d4c59cbbc8",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "6e0f1aa0def6bd5a",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Proxmox Guideline/Sử dụng GPU trên ubuntu vm.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Sử dụng GPU trên ubuntu vm"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "28f315f3234ab2e0",
+  "lastOpenFiles": [
+    "Proxmox Guideline/Sử dụng GPU trên LXC.md",
+    "Proxmox Guideline/Passthrough GPU.md",
+    "Proxmox Guideline/Passthrough Disk.md",
+    "Proxmox Guideline/Making a Ubuntu 24 04 VM Template for Proxmox and  CloudInit.md",
+    "Proxmox Guideline/Milestone 18ed3d175d23802ea472e2486609b155.md",
+    "Tự học DSA dư nào ✌️.md",
+    "Build your own Skynet/Project sswc 1e2d3d175d2380a3b909dcbb29aa885f.md",
+    "Template 1bfd3d175d23801098bfc256cc404016.md",
+    "Teamspace Home 1b4d3d175d238055a950df94237813fa.md",
+    "Survey Workshop 1c9d3d175d2380cea001d26c2a2f79f8.md",
+    "Software Architect 194d3d175d23804991aaf4067dbab47f.md",
+    "Sally planning 1c0d3d175d238078b3c3ee12fce047f1.md",
+    "Build your own Skynet.md",
+    "AWS Solution Architect.md",
+    "Software Architect/Validation thật VIP PRO trong Spring.md",
+    "Template 1bfd3d175d23801098bfc256cc404016/Features list Backlog 1bfd3d175d238016bb13dcd5ff712206/1 Log in 1bfd3d175d2381b78845c9be9ddb9270.md",
+    "Software Architect/Simple Roadmap.md",
+    "Software Architect/Simple Guide to Connection Pooling Java.md",
+    "Software Architect/Seperate App layer from framework.md",
+    "Software Architect/Resilient và Fault Tolerant trong microservice.md",
+    "Software Architect/Kafka Beginner.md",
+    "Software Architect/JWT Basic.md",
+    "Software Architect/Java Custom Annotation.md",
+    "Software Architect/Java Concurrent.md",
+    "Software Architect/Function Interface.md",
+    "Software Architect/Cách handle exception hiệu quả hơn trong Spring.md",
+    "AWS Solution Architect 188d3d175d2380879d8cf4a10c1b974c/SAA-C03 Notes/Overview 198d3d175d238062bd4edc59cced5fd4/image.png"
+  ]
+}

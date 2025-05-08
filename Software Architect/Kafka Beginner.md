@@ -1,0 +1,12 @@
+- 001: [Message-driven programming với Message broker và Apache Kafka](https://viblo.asia/p/001-message-driven-programming-voi-message-broker-va-apache-kafka-gDVK2OE0ZLj)
+- 002: [Kafka topic, partition, offset và broker](https://viblo.asia/p/002-apache-kafka-topic-partition-offset-va-broker-m68Z0eEMlkG)
+- 003: [Gửi và nhận message trong Apache Kafka](https://viblo.asia/p/003-gui-va-nhan-message-trong-apache-kafka-LzD5dMmzKjY)
+- 004: [ZooKeeper, Broker discovery và Kafka guarantee](https://viblo.asia/p/004-apache-kafka-consumer-offset-broker-discovery-va-zookeeper-GrLZDRe25k0)
+- 005: [Bao nhiêu partition là đủ cho topic trong Apache Kafka](https://viblo.asia/p/005-bao-nhieu-partition-la-du-cho-mot-topic-trong-apache-kafka-V3m5WQxQZO7)
+- 006: [Thực hành Apache Kafka với Kafka CLI](https://viblo.asia/p/006-thuc-hanh-apache-kafka-voi-kafka-cli-6J3ZgyoL5mB)
+- 007: [Simple Kafka Producer client API với Java](https://viblo.asia/p/007-simple-kafka-producer-client-api-voi-java-WAyK86PplxX)
+- 008: [Kafka Producer transaction và delivery semantics với Java](https://viblo.asia/p/008-kafka-producer-transaction-va-delivery-semantics-voi-java-maGK76GO5j2)
+- 009: [Kafka Consumer client API với Java](https://viblo.asia/p/009-kafka-consumer-client-api-voi-java-Az45b01LZxY)
+- 010: [Apache Kafka connect concept](https://viblo.asia/p/010-apache-kafka-connect-concept-gAm5ymNL5db)
+- 011: [Apache Kafka stream concept]
+- 012: [Apache Kafka SQL concept]
