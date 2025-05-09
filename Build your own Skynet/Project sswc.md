@@ -1,0 +1,1 @@
+[Ý tưởng và plan sơ bộ](Ý%20tưởng%20và%20plan%20sơ%20bộ.md)

@@ -1,5 +1,3 @@
-# K8S Tooling
-
 # K8S Dashboard
 
 - Hàng legit

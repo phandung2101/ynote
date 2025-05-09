@@ -1,5 +1,3 @@
-# Kubernetes là gì?
-
 # Ý tưởng
 
 Sinh ra để giải quyết các bài toán về
@@ -10,7 +8,7 @@ Sinh ra để giải quyết các bài toán về
 
 # Architecture
 
-![image.png](Kubernetes%20la%CC%80%20gi%CC%80%201c6d3d175d2380ceb279d606728da125/image.png)
+![image.png](Kubenetes%20Notes/image.png)
 
 Bao gồm
 

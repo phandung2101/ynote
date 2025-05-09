@@ -28,4 +28,4 @@
 
 # NACL with Ephemeral Ports
 
-![image.png](AWS%20Solution%20Architect%20188d3d175d2380879d8cf4a10c1b974c/SAA-C03%20Notes/Security%20Groups%20&%20NACLs%20191d3d175d2380149cdac4400f7b9924/image.png)
+![image.png](AWS%20Solution%20Architect/SAA-C03%20Notes/Security%20Groups%20&%20NACLs%20191d3d175d2380149cdac4400f7b9924/image.png)

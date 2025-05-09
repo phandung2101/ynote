@@ -12,7 +12,7 @@
 
 - using namespace like s3 to store key
 
-![image.png](AWS%20Solution%20Architect%20188d3d175d2380879d8cf4a10c1b974c/SAA-C03%20Notes/SSM%20Parameter%20Store%20188d3d175d238031aa10cfafb8662098/image.png)
+![image.png](AWS%20Solution%20Architect/SAA-C03%20Notes/SSM%20Parameter%20Store%20188d3d175d238031aa10cfafb8662098/image.png)
 
 - standard (4KB) vs advanced parameter tiers
 - could have **parameters policies (advanced params)**

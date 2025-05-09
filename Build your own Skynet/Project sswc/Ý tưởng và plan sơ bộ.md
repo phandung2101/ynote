@@ -1,6 +1,5 @@
-# Ý tưởng và plan sơ bộ
 
-![image.png](Build%20your%20own%20Skynet/Project%20sswc%201e2d3d175d2380a3b909dcbb29aa885f/Ý%20tưởng%20và%20plan%20sơ%20bộ%201e2d3d175d2380d68db0f2f0c4e18733/image.png)
+![image.png](Build%20your%20own%20Skynet/Project%20sswc/image.png)
 
 ---
 

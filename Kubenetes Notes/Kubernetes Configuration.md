@@ -1,5 +1,3 @@
-# Kubernetes Configuration
-
 # Cấu trúc
 
 Bao gồm 3 phần chính

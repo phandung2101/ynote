@@ -1,5 +1,3 @@
-# Proxmox Guideline
-
 [Milestone](Milestone%2018ed3d175d23802ea472e2486609b155.md)
 
 [Passthrough GPU](Passthrough%20GPU.md)

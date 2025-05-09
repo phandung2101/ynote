@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "1154a1c48c7d897a",
+        "id": "deb98af514a15df1",
         "type": "tabs",
         "children": [
           {
-            "id": "61c942a1f2db00d3",
+            "id": "33c824a4706e49e2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Design Pattern/2. Factory Method.md",
+                "file": "Software Architect/Validation thật VIP PRO trong Spring.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2. Factory Method"
+              "title": "Validation thật VIP PRO trong Spring"
             }
           }
         ]
@@ -168,35 +168,38 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "61c942a1f2db00d3",
+  "active": "33c824a4706e49e2",
   "lastOpenFiles": [
-    "Design Pattern/1.  Design Pattern overview.md",
-    "Design Pattern/22. Visitor.md",
-    "Design Pattern/21. Template Method.md",
-    "Design Pattern/20. Strategy.md",
-    "Design Pattern/19. State.md",
-    "Design Pattern/18. Observer.md",
-    "Design Pattern/17. Memento.md",
-    "Design Pattern/16. Mediator.md",
-    "Design Pattern/15. Iterator.md",
-    "Design Pattern/14. Command.md",
-    "Design Pattern/13. Chain of Responsibility.md",
-    "Design Pattern/12. Proxy.md",
-    "Design Pattern/11. Flyweight.md",
-    "Design Pattern/11. Facade.md",
-    "Design Pattern/10. Decorator.md",
-    "Design Pattern/9. Composite.md",
-    "Design Pattern/8. Bridge.md",
-    "Design Pattern/7. Adapter.md",
-    "Design Pattern/6. Singleton.md",
-    "Design Pattern/5. Prototype.md",
-    "Design Pattern/4. Builder.md",
-    "Design Pattern/3. Abstract Factory.md",
-    "Design Pattern/2. Factory Method.md",
-    "Untitled.md",
-    "AWS Solution Architect.md",
+    "Software Architect/Resilient và Fault Tolerant trong microservice.md",
+    "Software Architect/Simple Guide to Connection Pooling Java.md",
+    "Software Architect/Seperate App layer from framework.md",
+    "Kubenetes Notes/Những thành phần cơ bản trong K8S.md",
+    "AWS Solution Architect/SAA-C03 Notes.md",
+    "Draft/Interview resource.md",
+    "Draft/Proxmox Guideline.md",
+    "Home/My tasks 0425a9453e044fd1a71eaf28f7eb2b6a.md",
+    "Home/Untitled 5301b06730a048f4832c43dca51d3ad9.csv.md",
+    "Home/Home views 023df36e86014450acee103251f63999.md",
+    "Home/Home views 023df36e86014450acee103251f63999.csv.md",
+    "Kubenetes Notes/image.png",
+    "Kubenetes Notes/Helm.md",
+    "Kubenetes Notes/K8S Tooling.md",
+    "Kubenetes Notes/Kubenetes Notes.md",
+    "Kubenetes Notes/Kubernetes Configuration.md",
+    "Kubenetes Notes/Kubernetes là gì.md",
+    "Kubenetes Notes/Những component cơ bản.md",
+    "Tự học DSA dư nào ✌️.md",
+    "PTIT Resource.md",
+    "Home 5c0f3e81a9bb435d8ee569c759977e6c.md",
+    "Build your own Skynet/Khóa học & Tài liệu/Design Machine Learning System - Chip Huyen 1c8d3d175d2380baa33fe5aa419b6065.md",
+    "Build your own Skynet/Khóa học & Tài liệu/Hugging Face - AI Agents Course.md",
+    "Build your own Skynet/Project sswc/Ý tưởng và plan sơ bộ.md",
+    "Build your own Skynet/Project sswc/image.png",
+    "Build your own Skynet/1 số công cụ hữu ích.md",
+    "Build your own Skynet/Ghi chú.md",
+    "Build your own Skynet/Project sswc.md",
+    "Draft",
     "Design Pattern",
-    "Build your own Skynet/Khóa học & Tài liệu 1bfd3d175d2380d68b77e9153e7f307b/Hugging Face - AI Agents Course.md",
     "AWS Solution Architect 188d3d175d2380879d8cf4a10c1b974c/SAA-C03 Notes/Overview 198d3d175d238062bd4edc59cced5fd4/image.png"
   ]
 }

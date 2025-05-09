@@ -1,5 +1,3 @@
-# Helm
-
 # Helm là gì?
 
 - là package manager dành cho K8S ( tương tự npm cho nodejs )

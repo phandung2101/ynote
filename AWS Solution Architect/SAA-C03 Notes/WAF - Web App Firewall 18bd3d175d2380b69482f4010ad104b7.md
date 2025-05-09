@@ -25,4 +25,4 @@
 - WAF not support NLB (layer 4)
 - We can use Global Accelerator for fixed IP and WAF on the ALB
 
-![image.png](AWS%20Solution%20Architect%20188d3d175d2380879d8cf4a10c1b974c/SAA-C03%20Notes/WAF%20-%20Web%20App%20Firewall%2018bd3d175d2380b69482f4010ad104b7/image.png)
+![image.png](AWS%20Solution%20Architect/SAA-C03%20Notes/WAF%20-%20Web%20App%20Firewall%2018bd3d175d2380b69482f4010ad104b7/image.png)

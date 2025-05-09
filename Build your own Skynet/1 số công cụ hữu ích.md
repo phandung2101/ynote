@@ -1,5 +1,3 @@
-# 1 số công cụ hữu ích
-
 - Tokenizer visualizer: [tiktokenizer.vercel.app](https://tiktokenizer.vercel.app/)
     - chuyển text → token
 - Unified AI API: [openrouter.ai](https://openrouter.ai/)

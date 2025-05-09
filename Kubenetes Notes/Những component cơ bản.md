@@ -1,5 +1,3 @@
-# Những component cơ bản
-
 # Node
 
 Hay hiểu đơn giản là máy ảo hoặc máy vật lý nơi chạy K8S Node

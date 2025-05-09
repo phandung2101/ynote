@@ -1,5 +1,3 @@
-# Interview resource
-
 # Resource
 
 [Google system design interview guide (questions, process, prep)](https://igotanoffer.com/blogs/tech/google-system-design-interview)
