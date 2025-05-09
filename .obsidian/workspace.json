@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Design Pattern/3. Abstract Factory.md",
+                "file": "Design Pattern/5. Prototype.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3. Abstract Factory"
+              "title": "5. Prototype"
             }
           }
         ]
@@ -170,6 +170,9 @@
   },
   "active": "33c824a4706e49e2",
   "lastOpenFiles": [
+    "Design Pattern/4. Builder.md",
+    "Design Pattern/3. Abstract Factory.md",
+    "Untitled.md",
     "Design Pattern/2. Factory Method.md",
     "Design Pattern/1.  Design Pattern overview.md",
     "Kubenetes Notes/K8S Tooling.md",
@@ -195,9 +198,6 @@
     "Kubenetes Notes/Những component cơ bản.md",
     "Tự học DSA dư nào ✌️.md",
     "PTIT Resource.md",
-    "Home 5c0f3e81a9bb435d8ee569c759977e6c.md",
-    "Build your own Skynet/Khóa học & Tài liệu/Design Machine Learning System - Chip Huyen 1c8d3d175d2380baa33fe5aa419b6065.md",
-    "Build your own Skynet/Khóa học & Tài liệu/Hugging Face - AI Agents Course.md",
     "Build your own Skynet/Project sswc/image.png",
     "Draft",
     "Design Pattern",
