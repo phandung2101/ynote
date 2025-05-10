@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "deb98af514a15df1",
+        "id": "3d0ae6ff24215052",
         "type": "tabs",
         "children": [
           {
-            "id": "33c824a4706e49e2",
+            "id": "6d72a23fc87361b0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Design Pattern/Structural Pattern/Proxy.md",
+                "file": "Design Pattern/Structural Pattern/Bridge.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Proxy"
+              "title": "Bridge"
             }
           }
         ]
@@ -168,14 +168,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "33c824a4706e49e2",
+  "active": "6d72a23fc87361b0",
   "lastOpenFiles": [
+    "Design Pattern/Structural Pattern/Bridge.md",
+    "Design Pattern/Structural Pattern/Adapter.md",
+    "Design Pattern/Behavioral Patterns/Command.md",
+    "Design Pattern/Behavioral Patterns/Chain of Responsibility.md",
+    "Design Pattern/Creational Design Pattern/Singleton.md",
+    "Design Pattern/Creational Design Pattern/Prototype.md",
+    "Design Pattern/Creational Design Pattern/Factory Method.md",
+    "Design Pattern/Creational Design Pattern/Builder.md",
+    "Design Pattern/Creational Design Pattern/Abstract Factory.md",
+    "Design Pattern/Structural Pattern/Proxy.md",
     "Design Pattern/Structural Pattern/Flyweight.md",
     "Design Pattern/Structural Pattern/Facade.md",
     "Design Pattern/Structural Pattern/Decorator.md",
     "Design Pattern/Structural Pattern/Composite.md",
-    "Design Pattern/Structural Pattern/Bridge.md",
-    "Design Pattern/Structural Pattern/Adapter.md",
     "Design Pattern/Behavioral Patterns/Visitor.md",
     "Design Pattern/Behavioral Patterns/Template Method.md",
     "Design Pattern/Behavioral Patterns/Strategy.md",
@@ -184,24 +192,16 @@
     "Design Pattern/Behavioral Patterns/Memento.md",
     "Design Pattern/Behavioral Patterns/Mediator.md",
     "Design Pattern/Behavioral Patterns/Iterator.md",
-    "Design Pattern/Behavioral Patterns/Command.md",
-    "Design Pattern/Behavioral Patterns/Chain of Responsibility.md",
     "Design Pattern/Design Pattern overview.md",
     "Design Pattern/Behavioral Patterns",
-    "Design Pattern/Creational Design Pattern/Abstract Factory.md",
     "Design Pattern/Structural Pattern",
     "Untitled.md",
     "Untitled.canvas",
     "Untitled",
-    "Design Pattern/Creational Design Pattern/Builder.md",
-    "Design Pattern/Creational Design Pattern/Prototype.md",
-    "Design Pattern/Creational Design Pattern/Singleton.md",
-    "Design Pattern/Creational Design Pattern/Factory Method.md",
     "Design Pattern/Creational Design Pattern",
     "Kubenetes Notes/K8S Tooling.md",
     "README.md",
     "Kubenetes Notes/image.png",
-    "Software Architect/Validation thật VIP PRO trong Spring.md",
     "Build your own Skynet/Project sswc/image.png",
     "Draft",
     "Design Pattern",
