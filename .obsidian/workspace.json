@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kafka/Kafka Beginner.md",
+                "file": "Technical blog/Kafka for beginner.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Kafka Beginner"
+              "title": "Kafka for beginner"
             }
           }
         ]
@@ -168,10 +168,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6d72a23fc87361b0",
+  "active": "5f7b0696e3a47479",
   "lastOpenFiles": [
-    "Kafka/Kafka Journey.md",
+    "Technical blog",
     "Kafka/Kafka Beginner.md",
+    "Technical blog/Kafka for beginner.md",
     "Design Pattern/Structural Pattern/Bridge.md",
     "Kafka",
     "Java Indeed/Cách JVM làm việc.md",
@@ -197,7 +198,6 @@
     "Design Pattern/Behavioral Patterns/Memento.md",
     "Design Pattern/Behavioral Patterns/Mediator.md",
     "Design Pattern/Behavioral Patterns/Iterator.md",
-    "Design Pattern/Design Pattern overview.md",
     "Design Pattern/Behavioral Patterns",
     "Design Pattern/Structural Pattern",
     "Untitled.canvas",
