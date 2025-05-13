@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Design Pattern/Structural Pattern/Bridge.md",
+                "file": "Java Indeed/Cách JVM làm việc.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Bridge"
+              "title": "Cách JVM làm việc"
             }
           }
         ]
@@ -170,20 +170,22 @@
   },
   "active": "6d72a23fc87361b0",
   "lastOpenFiles": [
+    "Design Pattern/Structural Pattern/Composite.md",
+    "Java Indeed/Cách JVM làm việc.md",
+    "Java Indeed",
     "Design Pattern/Structural Pattern/Bridge.md",
+    "Design Pattern/Structural Pattern/Decorator.md",
     "Design Pattern/Structural Pattern/Adapter.md",
-    "Design Pattern/Behavioral Patterns/Command.md",
-    "Design Pattern/Behavioral Patterns/Chain of Responsibility.md",
+    "Design Pattern/Creational Design Pattern/Factory Method.md",
     "Design Pattern/Creational Design Pattern/Singleton.md",
     "Design Pattern/Creational Design Pattern/Prototype.md",
-    "Design Pattern/Creational Design Pattern/Factory Method.md",
     "Design Pattern/Creational Design Pattern/Builder.md",
     "Design Pattern/Creational Design Pattern/Abstract Factory.md",
+    "Design Pattern/Behavioral Patterns/Command.md",
+    "Design Pattern/Behavioral Patterns/Chain of Responsibility.md",
     "Design Pattern/Structural Pattern/Proxy.md",
     "Design Pattern/Structural Pattern/Flyweight.md",
     "Design Pattern/Structural Pattern/Facade.md",
-    "Design Pattern/Structural Pattern/Decorator.md",
-    "Design Pattern/Structural Pattern/Composite.md",
     "Design Pattern/Behavioral Patterns/Visitor.md",
     "Design Pattern/Behavioral Patterns/Template Method.md",
     "Design Pattern/Behavioral Patterns/Strategy.md",
@@ -197,10 +199,8 @@
     "Design Pattern/Structural Pattern",
     "Untitled.md",
     "Untitled.canvas",
-    "Untitled",
     "Design Pattern/Creational Design Pattern",
     "Kubenetes Notes/K8S Tooling.md",
-    "README.md",
     "Kubenetes Notes/image.png",
     "Build your own Skynet/Project sswc/image.png",
     "Draft",
