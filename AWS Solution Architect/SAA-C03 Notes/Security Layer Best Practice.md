@@ -1,7 +1,5 @@
 # Security Layer Best Practice
 
-![image.png](AWS%20Solution%20Architect/SAA-C03%20Notes/Security%20Layer%20Best%20Practice%2018cd3d175d2380ab9a3eec9c064c9f68/image.png)
-
 # AWS Best Practice for DDoS Resiliency
 
 ## Common case

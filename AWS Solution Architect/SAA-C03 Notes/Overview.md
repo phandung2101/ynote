@@ -2,8 +2,6 @@
 
 # RPO and RTO
 
-![image.png](AWS%20Solution%20Architect%20188d3d175d2380879d8cf4a10c1b974c/SAA-C03%20Notes/Overview%20198d3d175d238062bd4edc59cced5fd4/image.png)
-
 - RPO - Recover point object
 - RTO - Recover time object
 

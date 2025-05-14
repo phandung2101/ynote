@@ -1,5 +1,3 @@
-# Certificate Manager (ACM)
-
 - easily provision, manage, and deploy ***TLS Certificates***
 - auto renewal
 - integrations with

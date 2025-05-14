@@ -1,5 +1,3 @@
-# EC2 Instance High Availability
-
 # Create a highly available EC2 instance
 
 - Public EC2 attached Elastic IP address

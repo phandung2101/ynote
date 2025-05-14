@@ -1,5 +1,3 @@
-# Batch
-
 - **Fully managed** batch processing at **any scale**
 - Efficiently run 100,000s of computing batch jobs on AWS
 - A “batch” job is a job with a start and an end (opposed to continuous)

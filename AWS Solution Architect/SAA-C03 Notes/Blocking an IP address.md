@@ -1,5 +1,3 @@
-# Blocking an IP address
-
 # Need blocking basic
 
 - using NACL for the need block some specify at VPC level

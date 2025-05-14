@@ -1,5 +1,3 @@
-# CloudFormation
-
 - CloudFormation is a declarative way of outlining your AWS Infrastructure, for any resources (most of them are supported)
 - For example, within a CloudFormation template, you can setup
     - SG

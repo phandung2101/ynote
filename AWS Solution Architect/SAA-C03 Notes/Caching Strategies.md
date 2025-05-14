@@ -1,5 +1,3 @@
-# Caching Strategies
-
 # Some of this could be use
 
 - CloudFront ( Cached static content or API that not frequently change )
