@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "a05f407c2de754ab",
+        "id": "1d958ef52ee0615d",
         "type": "tabs",
         "children": [
           {
-            "id": "237de3d2ab850100",
+            "id": "80a2deb6a695d761",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "garba",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,7 +74,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -168,11 +169,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "237de3d2ab850100",
+  "active": "97c20ece75acb656",
   "lastOpenFiles": [
-    "Java Indeed/Java Memory Areas.md",
-    "Java Indeed/Garbage Collection trong Java.md",
     "Java Indeed/Cách JVM làm việc.md",
+    "Java Indeed/Garbage Collection trong Java.md",
+    "Java Indeed/Java Memory Areas.md",
     "Java Indeed/JVM Memory Area.md",
     "Java Indeed/img/class_loader.png",
     "Java Indeed/img/jvm_memory_area.png",
