@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AWS Solution Architect/Lab Catalog/IPv6, Egress Gateway.md",
+                "file": "Java Indeed/Cách JVM làm việc.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "IPv6, Egress Gateway"
+              "title": "Cách JVM làm việc"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "ff06b67d605dec38",
@@ -168,13 +169,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5f7b0696e3a47479",
+  "active": "237de3d2ab850100",
   "lastOpenFiles": [
+    "Java Indeed/img/jvm_memory_area.png",
+    "Java Indeed/Cách JVM làm việc.md",
+    "Java Indeed/img/class_loader.png",
+    "Java Indeed/img/jvm.png",
+    "AWS Solution Architect/Lab Catalog/IPv6, Egress Gateway.md",
     "AWS Solution Architect/AWS Catalog.md",
     "AWS Solution Architect/Lab Catalog/AWS Bedrock.md",
     "AWS Solution Architect/Lab Catalog.md",
     "AWS Solution Architect/SAA-C03 Notes/Blocking an IP address.md",
-    "AWS Solution Architect/Lab Catalog/IPv6, Egress Gateway.md",
     "AWS Solution Architect/SAA-C03 Notes/Well-Architected Framework & Well-Architected Tool.md",
     "AWS Solution Architect/SAA-C03 Notes/WAF - Web App Firewall.md",
     "AWS Solution Architect/SAA-C03 Notes/VPC Section Sumary.md",
@@ -194,12 +199,9 @@
     "AWS Solution Architect/SAA-C03 Notes/Site to Site VPN, Virtual Private Gateway & Custom.md",
     "AWS Solution Architect/SAA-C03 Notes/Shield protect from DDOS attack.md",
     "AWS Solution Architect/SAA-C03 Notes/Session Manager.md",
-    "AWS Solution Architect/SAA-C03 Notes/Security Layer Best Practice.md",
-    "AWS Solution Architect/SAA-C03 Notes/Security Groups & NACLs.md",
     "AWS Solution Architect/SAA-C03 Notes/WAF - Web App Firewall/image.png",
     "AWS Solution Architect/SAA-C03 Notes/VPC - Traffic Mirroring 196d3d175d23809781affbf1e16bf9c8/image.png",
     "Kubenetes Notes/image.png",
-    "Java Indeed/img/JVM.png",
     "Java Indeed/img",
     "Technical blog",
     "Kafka",
