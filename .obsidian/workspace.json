@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java Indeed/Cách JVM làm việc.md",
+                "file": "Java Indeed/Garbage Collection trong Java.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Cách JVM làm việc"
+              "title": "Garbage Collection trong Java"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "ff06b67d605dec38",
@@ -171,9 +170,12 @@
   },
   "active": "237de3d2ab850100",
   "lastOpenFiles": [
-    "Java Indeed/img/jvm_memory_area.png",
+    "Java Indeed/Java Memory Areas.md",
+    "Java Indeed/Garbage Collection trong Java.md",
     "Java Indeed/Cách JVM làm việc.md",
+    "Java Indeed/JVM Memory Area.md",
     "Java Indeed/img/class_loader.png",
+    "Java Indeed/img/jvm_memory_area.png",
     "Java Indeed/img/jvm.png",
     "AWS Solution Architect/Lab Catalog/IPv6, Egress Gateway.md",
     "AWS Solution Architect/AWS Catalog.md",
@@ -197,8 +199,6 @@
     "AWS Solution Architect/SAA-C03 Notes/SSM Parameter Store.md",
     "AWS Solution Architect/SAA-C03 Notes/Snow Family.md",
     "AWS Solution Architect/SAA-C03 Notes/Site to Site VPN, Virtual Private Gateway & Custom.md",
-    "AWS Solution Architect/SAA-C03 Notes/Shield protect from DDOS attack.md",
-    "AWS Solution Architect/SAA-C03 Notes/Session Manager.md",
     "AWS Solution Architect/SAA-C03 Notes/WAF - Web App Firewall/image.png",
     "AWS Solution Architect/SAA-C03 Notes/VPC - Traffic Mirroring 196d3d175d23809781affbf1e16bf9c8/image.png",
     "Kubenetes Notes/image.png",

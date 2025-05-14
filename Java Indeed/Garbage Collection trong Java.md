@@ -1,0 +1,1 @@
+Là quá trình tự động quản lý tiến trình của memory giúp Java chạy hiệu quả.
