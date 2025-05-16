@@ -251,6 +251,32 @@ public void start() {
    }
 }
 ```
+## Phaser
+`Phaser` is barrier style asynchronization tool that allows multiple threads to wait for each other, in phases.
+Imagine a game with multiple rounds, and in each round:
+- All players (threads) must complete their turn
+- Once all players are done, the next round (phase) begins
+- New players can join mid-game; others can drop out
+```java
+Phaser phaser = new Phaser(3); // Register 3 parties
+
+Runnable task = () -> {
+    String name = Thread.currentThread().getName();
+
+    System.out.println(name + " arrived at phase " + phaser.getPhase());
+    phaser.arriveAndAwaitAdvance(); // wait for others
+
+    System.out.println(name + " completed phase 0");
+
+    phaser.arriveAndAwaitAdvance(); // phase 1
+    System.out.println(name + " completed phase 1");
+};
+
+for (int i = 0; i < 3; i++) {
+    new Thread(task, "Thread-" + i).start();
+}
+```
+> Should be read more about it.
 ## Semaphore
 That is like how many thread can access resource at the same time. Example we have a parking spot that only have 10 slot, when full no one can access anymore until another one leaving.
 ```java
@@ -304,4 +330,10 @@ public class GFGThreadFactory implements ThreadFactory {
 `BlockingQueue` is an interface that represents a `thread-safe`queue. It supports **waiting (blocking)** operations when:
 - `put()` an element and the queue is full
 - `take()` an element and the queue is empty
+## DelayQueue
+`DelayQueue` is a queue of elements with delay. That mean:
+- You't can take item from the queue **until its delay has expired**
+- It is **unbounded** and based on `PriorityQueue`
+## Lock
+It's a utility for **block other thread** to accessing a certain segment of code. The different between **lock** and **asynchronous block** that we have `Lock` APIs `lock()` and `unlock()`.
 
