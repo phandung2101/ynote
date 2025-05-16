@@ -1,9 +1,9 @@
-# what is java.util.concurrent ?
 ## Main components
 - _Executor_
 - _ExecutorService_
 - _ScheduledExecutorService_
 - _Future_
+- _CompletableFuture_
 - _CountDownLatch
 - _CyclicBarrier_
 - _Semaphore_
@@ -129,6 +129,27 @@ try {
 } catch (InterruptedException | ExecutionException | TimeoutException e) {
    e.printStackTrace();
 }
+```
+## CompletableFuture
+It is newer class that doesn't need ExecutorService to submit task to run a task async.
+```java
+ExecutorService executor = Executors.newSingleThreadExecutor();
+Future<String> future = executor.submit(() -> "Hello");
+
+CompletableFuture<String> cf = CompletableFuture.supplyAsync(() -> "Hello");
+```
+Cleary better right. But one another different is:
+
+| Feature  | `Future`                                           | `CompletableFuture`                                             |
+| -------- | -------------------------------------------------- | --------------------------------------------------------------- |
+| Blocking | `get()` block the thread until the result is ready | Can use non-blocking methods like `thenApply()`, `thenAccept()` |
+| Chaining | Not support                                        | Support fluent chainning                                        |
+```java
+// CompletableFuture: Non-blocking chain
+CompletableFuture.supplyAsync(() -> "Hello")
+                 .thenApply(s -> s + " World")
+                 .thenAccept(System.out::println);
+
 ```
 ## CountDownLatch
 `CountDownLatch` is a counter that init with a number, amount of threads that main thread need to wait for all be done and after that it release main thread.

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java Indeed/Concurrency in Java.md",
+                "file": "Java Indeed/Hand on concurrency Java.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Concurrency in Java"
+              "title": "Hand on concurrency Java"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Java Indeed/Concurrency in Java.md",
+                "file": "Java Indeed/Hand on concurrency Java.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Concurrency in Java"
+              "title": "Outline of Hand on concurrency Java"
             }
           },
           {
@@ -181,9 +181,10 @@
   },
   "active": "c7e47efd09969bda",
   "lastOpenFiles": [
+    "Java Indeed/Basic Java Concurrency.md",
+    "Java Indeed/Hand on concurrency Java.md",
     "Technical blog/Sử dụng Kafka trong thực tế.md",
     "image.png",
-    "Java Indeed/Concurrency in Java.md",
     "Data Structure & Algorithm/_DSA Basic to Advanced.md",
     "Data Structure & Algorithm/Two Pointer.md",
     "Data Structure & Algorithm/Tree Basic.md",
@@ -210,7 +211,6 @@
     "Data Structure & Algorithm/Basic Sorting.md",
     "Data Structure & Algorithm/Array & String.md",
     "Data Structure & Algorithm",
-    "Technical blog/Kafka - Các thành phần chính.md",
     "Java Indeed/img/class_loader.png",
     "Java Indeed/img/jvm_memory_area.png",
     "Java Indeed/img/jvm.png",
