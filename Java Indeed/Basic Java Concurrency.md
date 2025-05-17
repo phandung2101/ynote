@@ -358,3 +358,29 @@ public class GFGThreadFactory implements ThreadFactory {
 ## Lock
 It's a utility for **block other thread** to accessing a certain segment of code. The different between **lock** and **asynchronous block** that we have `Lock` APIs `lock()` and `unlock()`.
 
+## Runable
+It's an interface for run a task without return value and cannot throw checked exception
+```java
+@Override  
+public void run()  {  
+    System.out.printf("Process log number #%d%n", logNum);  
+    try {  
+        Thread.sleep(Math.round(random() * 1000));  
+    } catch (InterruptedException e) { //you must handle exception  
+        throw new RuntimeException(e);  
+    }  
+    cdl.countDown();  
+}
+```
+## Callable
+It's an interface like `Runable` but it have return value and can throw checked exception
+
+```java
+@Override  
+public String call() throws Exception {  
+    System.out.printf("Process log number #%d%n", logNum);  
+    Thread.sleep(Math.round(random() * 1000));  
+    cdl.countDown();  
+    return "";  
+}
+```
