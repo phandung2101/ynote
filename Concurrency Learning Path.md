@@ -2,37 +2,13 @@ Great question! Concurrency and thread-safety are **essential** for writing high
 
 ---
 
-## 🔝 TOP Priority Topics (Must Know First)
-
-### 1. **Thread Basics**
-
-- What is a thread?
-    
-- How to create threads (`Thread`, `Runnable`, `Callable`)
-    
-- Thread lifecycle (New → Runnable → Running → Blocked → Terminated)
-    
-
 ### 2. **Thread Safety & Data Sharing**
-
 - **Race conditions**
-    
 - **Critical sections**
-    
-- **Stack vs Heap memory**
-    
-- Thread visibility problems
-    
-
 ### 3. **Synchronized Keyword**
-
 - `synchronized` methods and blocks
-    
 - Object monitor, intrinsic locks
-    
 - Reentrancy (reentrant locks)
-    
-
 ### 4. **volatile Keyword**
 
 - What it guarantees (visibility, not atomicity)

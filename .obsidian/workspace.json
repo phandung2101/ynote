@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Concurrency Learning Path.md",
+                "file": "Java Indeed/Thread and Thread-safe in Java.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Concurrency Learning Path"
+              "title": "Thread and Thread-safe in Java"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Java Indeed/Basic Java Concurrency.md",
+                "file": "Java Indeed/Thread and Thread-safe in Java.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Basic Java Concurrency"
+              "title": "Outline of Thread and Thread-safe in Java"
             }
           },
           {
@@ -179,12 +179,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6702388dfacf4742",
+  "active": "c7e47efd09969bda",
   "lastOpenFiles": [
+    "Concurrency Learning Path.md",
     "PTIT Resource.md",
     "README.md",
     "Java Indeed/img/thread_state_logs.png",
-    "Java Indeed/Concurrency in details.md",
+    "Java Indeed/Thread and Thread-safe in Java.md",
     "Java Indeed/Basic Java Concurrency.md",
     "Java Indeed/Cách JVM làm việc.md",
     "Java Indeed/Garbage Collection trong Java.md",
@@ -197,7 +198,6 @@
     "Data Structure & Algorithm/Hashing & Hash Table/Hash Collision.md",
     "Data Structure & Algorithm/Big O Notation.md",
     "Data Structure & Algorithm/Two Pointer.md",
-    "Concurrency Learning Path.md",
     "Tự học DSA dư nào ✌️.md",
     "image.png",
     "Draft/Interview resource.md",
