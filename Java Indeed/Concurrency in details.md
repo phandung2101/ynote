@@ -16,7 +16,96 @@ Java make working with Thread more easier. Using:
 - Lambda Expression of `Runnable`
 - Implement `Callable` with `ExecutionService`
 ## Thread lifecycle in Java
+![[thread_state.png]]
+### New Thread
+When new thread is created it in **new state**. The thread has not yet started.
+### Runable State
+A thread is **ready to run** is move to runable state. In this state, a thread might actually be running or it ready to run at any time. It's responsibilty of thread scheduler to give thread **time to run**. A multi-threaded program allocates fixed amount of time for each thread to run. After run thread pauses and gives up the CPU so the other threads can run.
+### Blocked
+The thread will be **blocked** when **trying to acquired a lock** but currently the lock is acquired by another thread. The thread will move from **blocked state** to **runnable state**  when it acquires the lock.
+### Waiting State
+The thread will be in waiting state when it call `wait()` method or `join()`. It will move to the runnable state when other thread will notify or that thread will be terminated
+### Timed Waiting
+When thread calls a method with **timeout parameters** until timeout is completed or until a notification is received. For example call `sleep()` or condition wait, it is moved to this state
+### Terminate State
+The thread terminates because of:
+- because it complete normally
+- or occured some error
 
+```java
+// Java program to demonstrate thread states 
+// using a ticket booking scenario
+class TicketBooking implements Runnable {
+    @Override
+    public void run() {
+        
+        try {
+            
+            // Timed waiting
+            Thread.sleep(200); 
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+        System.out.println("State of bookingThread while mainThread is waiting: " +
+                TicketSystem.mainThread.getState());
+
+        try {
+            
+            // Another timed waiting
+            Thread.sleep(100); 
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+    }
+}
+
+public class TicketSystem implements Runnable {
+    public static Thread mainThread;
+    public static TicketSystem ticketSystem;
+
+    @Override
+    public void run() {
+        TicketBooking booking = new TicketBooking();
+        Thread bookingThread = new Thread(booking);
+
+        System.out.println("State after creating bookingThread: " + bookingThread.getState());
+
+        bookingThread.start();
+        System.out.println("State after starting bookingThread: " + bookingThread.getState());
+
+        try {
+            Thread.sleep(100);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+        System.out.println("State after sleeping bookingThread: " + bookingThread.getState());
+
+        try {
+            
+            // Moves mainThread to waiting state
+            bookingThread.join(); 
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+        System.out.println("State after bookingThread finishes: " + bookingThread.getState());
+    }
+
+    public static void main(String[] args) {
+        ticketSystem = new TicketSystem();
+        mainThread = new Thread(ticketSystem);
+
+        System.out.println("State after creating mainThread: " + mainThread.getState());
+
+        mainThread.start();
+        System.out.println("State after starting mainThread: " + mainThread.getState());
+    }
+}
+```
+
+![[thread_state_logs.png]]
 # `Volatile` in Java
 ## Problem
 **Example**:
