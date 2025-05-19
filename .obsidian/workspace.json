@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring/Transactional annotation.md",
+                "file": "Java Indeed/Concurrency in Java.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Transactional annotation"
+              "title": "Concurrency in Java"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring/Transactional annotation.md",
+                "file": "Java Indeed/Concurrency in Java.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Transactional annotation"
+              "title": "Outline of Concurrency in Java"
             }
           },
           {
@@ -181,23 +181,24 @@
   },
   "active": "c7e47efd09969bda",
   "lastOpenFiles": [
-    "Concurrency Learning Path.md",
+    "Java Indeed/Java Memory Areas.md",
+    "Java Indeed/Hand on concurrency Java.md",
+    "Java Indeed/Garbage Collection trong Java.md",
+    "Java Indeed/Concurrency in Java.md",
+    "Java Indeed/Cách JVM làm việc.md",
+    "Java Indeed/Những ví dụ về Memory Leak.md",
+    "Java Indeed/Basic Java Concurrency.md",
     "Spring/Transactional annotation.md",
+    "Concurrency Learning Path.md",
     "Database/ACID Principle.md",
     "Spring",
     "Database",
-    "Java Indeed/Hand on concurrency Java.md",
-    "Java Indeed/Basic Java Concurrency.md",
     "Technical blog/Kafka - Các thành phần chính.md",
     "Technical blog/Sử dụng Kafka trong thực tế.md",
     "Technical blog/What is SOLID?.md",
-    "Java Indeed/Thread and Thread-safe in Java.md",
     "PTIT Resource.md",
     "README.md",
     "Java Indeed/img/thread_state_logs.png",
-    "Java Indeed/Cách JVM làm việc.md",
-    "Java Indeed/Garbage Collection trong Java.md",
-    "Java Indeed/Java Memory Areas.md",
     "Java Indeed/img/thread_state.png",
     "Untitled.md",
     "Data Structure & Algorithm/_DSA Basic to Advanced.md",
@@ -211,7 +212,6 @@
     "Kafka/Kafka Beginner.md",
     "Data Structure & Algorithm/Tree Basic.md",
     "Data Structure & Algorithm/Traversal DFS & BFS.md",
-    "Data Structure & Algorithm/Thuật toán Boyer-Moore.md",
     "Data Structure & Algorithm/Hashing & Hash Table",
     "Data Structure & Algorithm/Big O Notation ( Chữ O thật béo )",
     "Data Structure & Algorithm",
