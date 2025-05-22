@@ -113,7 +113,6 @@ Những điểm lưu ý trong phần trên:
 - Line con 0 (console line 0) là đường kết nối vật lý dùng để truy cập trực tiếp vào thiết bị Cisco thông qua cổng console
 
 Để truy cập priviledged mode thì phải sử dụng lệnh `enable` như trên. Nhưng như thế thì không bảo mật nên phải dùng lệnh dưới để set password cho priviledged mode
-
 ```bash
 S1> enable
 S1# configure terminal
@@ -124,9 +123,7 @@ S1#
 ```
 
 # Cấu hình secret
-
 Mặc định thì các cấu hình secret sẽ override password ví dụ như sau:
-
 ```bash
 ...
 hostname S1
@@ -135,36 +132,28 @@ hostname S1
 enable secret 5 $1$mERr$ILwq/b7kc.7X/ejA4Aosn0
 enable password c1$c0
 ```
-
 - Khi sử dụng `enable` với password là `c1$c0` sẽ không thể truy cập được
 - Sử dụng lệnh password-encryption để set mã hóa mặc định cho password
-
 ```bash
 S1# config t
 S1(config)# service password-encryption
 S1(config)# exit
 ```
-
 - Vậy tại sao lại dùng secret thay vì password trong khi đã có encryption. Câu trả lời là **mức độ bảo mật secret cao hơn nhiều so với encryption**
-
 # Secret với username/password
-
 ```bash
 Router(config)# hostname Router1
 Router1(config)# ip domain-name ccna-lab.com
 Router1(config)# username SSHadmin secret 55Hadm!n
 Router1(config)# crypto key generate rsa modulus 1024
 ```
-
 # Config static và default route
-
 ## Phân biệt default static route và static route
 
 - static route là tuyến đường tĩnh - chỉ cho 1 số route cụ thể
 - default static route là tuyến đường tĩnh cho tất cả traffic
 - default ip và subnet-mask cho ipv4 là `0.0.0.0 0.0.0.0`
 - default ipv6 là `::/0`
-
 ## Cấu hình cơ bản
 
 ```bash
@@ -176,26 +165,20 @@ ip route 192.168.2.0 255.255.255.0 192.168.1.1
 # Using interface ( meaning trafic out interface )
 ip route 192.168.2.0 255.255.255.0 GigabitEthernet0/0
 ```
-
 ## Directly Connected là gì?
 
 - Là kết nối trực tiếp thông qua interface thay vì next hop ip
 - trường hợp đổi next hop ip thì vẫn hoạt động bt
-
 ## Administrative distance là gì?
-
 - giá trị ưu tiên của tuyến đường
 - càng thấp càng ưu tiên
-- mặc định static route là 1
-
+- mặc định static route là 1=
 ## IPv6
-
 ```bash
 ipv6 route [destination-network/prefix-length] [next-hop-ipv6 | interface]
 ipv6 route 2001:DB8::/64 2001:DB8:1::1
 ipv6 route 2001:DB8::/64 GigabitEthernet0/0
 ```
-
 ## Listing route table
 
 ```bash
