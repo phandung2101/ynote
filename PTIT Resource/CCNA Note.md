@@ -2,6 +2,7 @@
 
 - enable: truy cập privilege mode
 - show running-config: truy cập running config
+	- sử dụng `show running-config | include ip route` dùng include để lọc các dòng
 - enable password: set password cho privilege mode ở plaintext
 - enable secret: set password cho privilege mode ở secret encrypted
 
@@ -121,7 +122,16 @@ S1(config)# exit
 %SYS-5-CONFIG_I: Configured from console by console
 S1#
 ```
-
+# Cách kết nối đến switch với console line
+- dùng cáp console cắm thẳng từ PC -> switch
+- dùng terminal kết nối đến switch từ PC
+# Cấu hình địa chỉ IP cho switch/router
+```bash
+interface vlan 1 
+ip address 128.107.20.10 255.255.255.0 
+no shutdown 
+end
+```
 # Cấu hình secret
 Mặc định thì các cấu hình secret sẽ override password ví dụ như sau:
 ```bash
@@ -149,13 +159,11 @@ Router1(config)# crypto key generate rsa modulus 1024
 ```
 # Config static và default route
 ## Phân biệt default static route và static route
-
 - static route là tuyến đường tĩnh - chỉ cho 1 số route cụ thể
 - default static route là tuyến đường tĩnh cho tất cả traffic
 - default ip và subnet-mask cho ipv4 là `0.0.0.0 0.0.0.0`
 - default ipv6 là `::/0`
 ## Cấu hình cơ bản
-
 ```bash
 # Structure
 ip route [destination-network] [subnet-mask] [next-hop-ip/interface] [admin-distance]
@@ -166,7 +174,6 @@ ip route 192.168.2.0 255.255.255.0 192.168.1.1
 ip route 192.168.2.0 255.255.255.0 GigabitEthernet0/0
 ```
 ## Directly Connected là gì?
-
 - Là kết nối trực tiếp thông qua interface thay vì next hop ip
 - trường hợp đổi next hop ip thì vẫn hoạt động bt
 ## Administrative distance là gì?
@@ -180,7 +187,6 @@ ipv6 route 2001:DB8::/64 2001:DB8:1::1
 ipv6 route 2001:DB8::/64 GigabitEthernet0/0
 ```
 ## Listing route table
-
 ```bash
 # Hiển thị IPv4 routing table
 show ip route
@@ -193,5 +199,30 @@ show ip route static
 
 # Hiển thị route table ngắn gọn
 show ip route summary
+```
+# Cách kiểm tra định tuyến
+Trên từng máy vật lý có thể sử dụng lệnh
+```bash
+# tracert {target_ip}
+PC> tracert 2001:db8:f:f::10
 
+Tracing route to 2001:db8:f:f::10 over a maximum of 30 hops: 
+
+  1   1 ms      0 ms      0 ms      2001:DB8:1:10::1
+  2   0 ms      0 ms      1 ms      2001:DB8:A:2::1
+  3   13 ms     0 ms      1 ms      2001:DB8:F:F::10
+
+Trace complete.
+```
+# OSPF
+Là Open Shortest Path First là 1 giao thức định tuyến động (dynamic routing protocol) thuộc nhóm IGP (Interior Gateway Protocol)
+> Đọc kĩ thêm phần này chứ không hiểu gì
+## Cách cấu hình 
+```bash
+# Kích hoạt OSPF với process ID là 1 (ID này chỉ có ý nghĩa nội bộ).
+Router(config)# router ospf <process-id>
+# Cài đặt ID cho router hiện tại (ví dụ 1.1.1.1 chẳng hạn)
+Router(config-router)# router-id <rid>
+
+Router(config-if)# **ip ospf** process-id **area** area-id
 ```
