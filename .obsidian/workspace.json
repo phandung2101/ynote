@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Structure & Algorithm/Hashing & Hash Table.md",
+                "file": "AWS Solution Architect/Caching/ElastiCache Strategies.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Hashing & Hash Table"
+              "title": "ElastiCache Strategies"
             }
           }
         ]
@@ -181,10 +181,15 @@
   },
   "active": "730a981b4d3ec868",
   "lastOpenFiles": [
+    "Data Structure & Algorithm/Greedy Algorithm.md",
+    "AWS Solution Architect/Caching/ElastiCache Strategies.md",
+    "AWS Solution Architect/Caching",
+    "AWS Solution Architect/DVA-C02 Notes/ElastiCache.md",
+    "AWS Solution Architect/DVA-C02 Notes",
+    "Data Structure & Algorithm/Hashing & Hash Table.md",
     "Data Structure & Algorithm/Basic Sorting.md",
     "Data Structure & Algorithm/Array & String.md",
     "Data Structure & Algorithm/Graph Basic.md",
-    "Data Structure & Algorithm/Greedy Algorithm.md",
     "Data Structure & Algorithm/Two Pointer.md",
     "Data Structure & Algorithm/Tree Basic.md",
     "Data Structure & Algorithm/Stack in Java.md",
@@ -203,10 +208,7 @@
     "Data Structure & Algorithm/Queue in Java.md",
     "Data Structure & Algorithm/Recursive ( Đệ quy ).md",
     "Data Structure & Algorithm/Traversal DFS & BFS.md",
-    "Data Structure & Algorithm/Hashing & Hash Table.md",
     "Data Structure & Algorithm/_DSA Basic to Advanced.md",
-    "Data Structure & Algorithm/Big O Notation.md",
-    "Data Structure & Algorithm/Counting Sort.md",
     "Spring",
     "Database",
     "Java Indeed/img/thread_state_logs.png",
@@ -224,8 +226,6 @@
     "Java Indeed/img",
     "Technical blog",
     "Kafka",
-    "img",
-    "Java Indeed",
     "Untitled.canvas",
     "Build your own Skynet/Project sswc/image.png"
   ]

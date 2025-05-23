@@ -1,7 +1,11 @@
-# Cơ bản về giải thuật
-
-Giải thuật tham lam là một phương pháp giải quyết vấn đề bằng cách luôn chọn lựa quyết định tối ưu nhất tại thời điểm hiện tại mà không quan tâm đến hệ quả trong tương lai. Phương pháp này xây dựng giải pháp từng bước một, mỗi bước đều chọn phương án có lợi nhất tại thời điểm đó.
-
+# Basic understand
+- is an algorithm paradigm that build up solution **piece by piece**
+- always choosing next piece that offers the **most obvious** and **immediate benefit**
+- used for optimization problems
+# Problems identify
+- at every step, we can make a choice that **look best at that moment**, and we get the optimal solution to the complete problem
+- some popular Greedy Algorithms: Fractional Knapsack, Dijkstra's algorithm, Kruskal's algorithm, Huffman coding and Prim's alogrithm
+- the **greedy algorithms** are sometimes also used to get an **approximation for Hard optimization problems**
 ## Đặc điểm chính
 
 - **Nguyên lý cơ bản**: Luôn chọn lựa tối ưu cục bộ tại mỗi bước
