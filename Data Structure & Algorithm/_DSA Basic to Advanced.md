@@ -33,7 +33,7 @@
 # Phần 6: Kỹ thuật thiết kế thuật toán
 - Divide & Conquer
 - Dynamic Programming
-[[Giải Thuật Tham Lam (Greedy Algorithm)]]
+[[Greedy Algorithm]]
 - Backtracking
 # Phần 7: Nâng cao của các thuật toán đã học ở trên
 - Cây cân bằng (AVL, Red-Black-Tree)

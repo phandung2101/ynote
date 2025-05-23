@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PTIT Resource/Checklist bài lab.md",
+                "file": "Data Structure & Algorithm/Hashing & Hash Table.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Checklist bài lab"
+              "title": "Hashing & Hash Table"
             }
           }
         ]
@@ -181,9 +181,16 @@
   },
   "active": "730a981b4d3ec868",
   "lastOpenFiles": [
+    "Data Structure & Algorithm/Basic Sorting.md",
+    "Data Structure & Algorithm/Array & String.md",
+    "Data Structure & Algorithm/Graph Basic.md",
+    "Data Structure & Algorithm/Greedy Algorithm.md",
+    "Data Structure & Algorithm/Two Pointer.md",
+    "Data Structure & Algorithm/Tree Basic.md",
+    "Data Structure & Algorithm/Stack in Java.md",
+    "PTIT Resource/Checklist bài lab.md",
     "PTIT Resource/CCNA Note.md",
     "PTIT Resource/Nhập môn trí tuệ nhân tạo/Đề mẫu.md",
-    "PTIT Resource/Checklist bài lab.md",
     "PTIT Resource/Nhập môn trí tuệ nhân tạo.md",
     "PTIT Resource/Mạng máy tính.md",
     "Note 11 2 197d3d175d2380a4bb99ceeea21f8328.md",
@@ -195,18 +202,11 @@
     "Data Structure & Algorithm/Map.md",
     "Data Structure & Algorithm/Queue in Java.md",
     "Data Structure & Algorithm/Recursive ( Đệ quy ).md",
-    "Data Structure & Algorithm/Two Pointer.md",
-    "Data Structure & Algorithm/Tree Basic.md",
     "Data Structure & Algorithm/Traversal DFS & BFS.md",
     "Data Structure & Algorithm/Hashing & Hash Table.md",
     "Data Structure & Algorithm/_DSA Basic to Advanced.md",
     "Data Structure & Algorithm/Big O Notation.md",
-    "Data Structure & Algorithm/Graph Basic.md",
-    "Data Structure & Algorithm/Giải Thuật Tham Lam (Greedy Algorithm).md",
     "Data Structure & Algorithm/Counting Sort.md",
-    "Data Structure & Algorithm/Binary Search Tree.md",
-    "Design Pattern/Design Pattern overview.md",
-    "Design Pattern/Behavioral Patterns/Strategy.md",
     "Spring",
     "Database",
     "Java Indeed/img/thread_state_logs.png",
