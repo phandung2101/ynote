@@ -45,6 +45,13 @@ public class FeignConfig {
     }
 }
 ```
+Add dependency
+```
+<dependency>
+    <groupId>io.github.openfeign</groupId>
+    <artifactId>feign-okhttp</artifactId>
+</dependency>
+```
 ## Using with Eureka (Service Discovery)
 ```java
 @FeignClient(name = "user-service") // don't need to use url
