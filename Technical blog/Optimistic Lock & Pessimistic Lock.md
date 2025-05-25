@@ -14,6 +14,7 @@ Concurrency control in databases uses **optimistic locking** and **pessimistic l
 - Best for write-heavy, high-conflict systems.
 - Pros: Ensures data safety.
 - Cons: Can cause performance bottlenecks.
+> Read more detail with: [[SQL Transaction]]
 # Key Difference
 - Optimistic: Prioritizes performance, risks conflicts.
 - Pessimistic: Prioritizes safety, reduces concurrency.
