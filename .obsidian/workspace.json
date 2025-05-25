@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java Indeed/Hand on concurrency Java.md",
+                "file": "Technical blog/Optimistic Lock & Pessimistic Lock.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Hand on concurrency Java"
+              "title": "Optimistic Lock & Pessimistic Lock"
             }
           }
         ]
@@ -181,16 +181,17 @@
   },
   "active": "6702388dfacf4742",
   "lastOpenFiles": [
+    "Technical blog/SQL Transaction.md",
+    "Technical blog/Optimistic Lock & Pessimistic Lock.md",
+    "Java Indeed/Hand on concurrency Java.md",
     "Java Indeed/How JVM works.md",
     "Java Indeed/Java Memory Areas.md",
     "Java Indeed/Memory Leak.md",
     "Java Indeed/OOP.md",
     "Java Indeed/Concurrency in Java.md",
     "Java Indeed/Garbage Collection trong Java.md",
-    "Java Indeed/Hand on concurrency Java.md",
     "Spring/Spring OpenFeign - Simple HTTP Client.md",
     "Technical blog/Kafka - Các thành phần chính.md",
-    "Technical blog/SQL Transaction.md",
     "PTIT Resource/Checklist bài lab.md",
     "Data Structure & Algorithm/Greedy Algorithm.md",
     "AWS Solution Architect/Caching/ElastiCache Strategies.md",
@@ -210,7 +211,6 @@
     "PTIT Resource.md",
     "README.md",
     "Java Indeed/img/thread_state_logs.png",
-    "Java Indeed/Basic Java Concurrency.md",
     "Java Indeed/img/thread_state.png",
     "image.png",
     "Data Structure & Algorithm/Hashing & Hash Table",
