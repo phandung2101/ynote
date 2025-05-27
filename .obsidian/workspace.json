@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Draft/Interview resource.md",
+                "file": "System Design/Two phase commit.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Interview resource"
+              "title": "Two phase commit"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Draft/Interview resource.md",
+                "file": "System Design/Two phase commit.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Interview resource"
+              "title": "Outline of Two phase commit"
             }
           },
           {
@@ -179,10 +179,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "780308283bfbef53",
+  "active": "c7e47efd09969bda",
   "lastOpenFiles": [
-    "Draft/Proxmox Guideline.md",
     "Draft/Interview resource.md",
+    "System Design/Two phase commit.md",
+    "Draft/Proxmox Guideline.md",
     "System Design/Resilient & Fault Tolerant in microservice.md",
     "Spring/Validation Spring.md",
     "Java Indeed/Connection Pooling Java.md",
@@ -208,7 +209,6 @@
     "System Design",
     "Patterns & Design Principles",
     "Kafka/Sử dụng Kafka trong thực tế.md",
-    "Kafka/Kafka - Các thành phần chính.md",
     "AWS Solution Architect/Caching",
     "AWS Solution Architect/DVA-C02 Notes",
     "Spring",
