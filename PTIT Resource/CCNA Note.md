@@ -226,3 +226,17 @@ Router(config-router)# router-id <rid>
 
 Router(config-if)# **ip ospf** process-id **area** area-id
 ```
+
+# VLAN Config
+## Cấu hình trên từng router
+```bash
+// Hiển thị cấu hình vlan
+S1#show vlan brief
+// Add vlan và name
+S1#(config)# vlan 10
+S1#(config-vlan)# name Faculty/Staff
+// Config through IP Phone
+S3(config)# interface f0/11
+S3(config-if)# mls qos trust cos
+S3(config-if)# switchport voice vlan 150
+```
