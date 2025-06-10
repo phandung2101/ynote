@@ -34,7 +34,8 @@
 - Divide & Conquer
 - Dynamic Programming
 [[Greedy Algorithm]]
-- Backtracking
+[[Backtracking]]
+[[Generation Algorithm]]
 # Phần 7: Nâng cao của các thuật toán đã học ở trên
 - Cây cân bằng (AVL, Red-Black-Tree)
 - Thuật toán xử lý chuỗi
