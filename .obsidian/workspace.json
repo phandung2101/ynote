@@ -157,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PTIT Resource/CCNA Note.md",
+                "file": "Data Structure & Algorithm/Backtracking.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of CCNA Note"
+              "title": "Outline of Backtracking"
             }
           },
           {
@@ -194,7 +194,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ec065a69b2e8a343",
+  "active": "c7e47efd09969bda",
   "lastOpenFiles": [
     "Data Structure & Algorithm/Generation Algorithm.md",
     "Data Structure & Algorithm/_DSA Basic to Advanced.md",
