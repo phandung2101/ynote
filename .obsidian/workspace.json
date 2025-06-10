@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Structure & Algorithm/Backtracking.md",
+                "file": "Database/DB Normalization.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Backtracking"
+              "title": "DB Normalization"
             }
           }
         ],
@@ -194,11 +194,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c7e47efd09969bda",
+  "active": "ec065a69b2e8a343",
   "lastOpenFiles": [
+    "Patterns & Design Principles/OOP.md",
+    "Database/DB Normalization.md",
+    "Patterns & Design Principles/SOLID.md",
+    "Data Structure & Algorithm/Backtracking.md",
     "Data Structure & Algorithm/Generation Algorithm.md",
     "Data Structure & Algorithm/_DSA Basic to Advanced.md",
-    "Data Structure & Algorithm/Backtracking.md",
     "Data Structure & Algorithm/Greedy Algorithm.md",
     "PTIT Resource/CCNA Note.md",
     "PTIT Resource/Checklist bài lab.md",
@@ -219,9 +222,6 @@
     "Database/SQL Transaction.md",
     "Patterns & Design Principles/GOF.md",
     "Patterns & Design Principles/CAP Theorem.md",
-    "Patterns & Design Principles/MVC.md",
-    "Patterns & Design Principles/Test Driven Development (TDD).md",
-    "Patterns & Design Principles/SOLID.md",
     "System Design",
     "Patterns & Design Principles",
     "AWS Solution Architect/Caching",

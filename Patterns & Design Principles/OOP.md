@@ -1,3 +1,8 @@
+# Quick overview
+- **Abstraction** - display only essential detail -> interface & abstract class
+- **Polymorphism** - same method name but different params -> overriding & overloading
+- **Encapsulation** - hiding data from another and its child -> getter & setter
+- **Inheritance** - reusable code -> use same behavior by extending, implementing
 # Abstraction
 ## Props
 - display only essential details to user
