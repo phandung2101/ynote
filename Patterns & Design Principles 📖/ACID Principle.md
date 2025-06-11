@@ -1,4 +1,4 @@
-The ACID principle ensure reliable database transactions with 4 properties:
+ The ACID principle ensure reliable database transactions with 4 properties:
 # Atomicity - All or nothing
 A transaction is treated as single unit of work. Either all changes within the transaction successful or none of them are applied. 
 # Consistency - Keeping rules intact

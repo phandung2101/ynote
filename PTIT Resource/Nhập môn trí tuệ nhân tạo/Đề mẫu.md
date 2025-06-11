@@ -16,6 +16,5 @@ Câu 3: 3 điểm
 - Dạng P(A|B,C)
 
 Câu 4: 3 điểm
-
 - Tìm nút gốc cho cây quyết định sử dụng thuật toán ID3
 - Thuật toán k láng giềng hoặc phương pháp phân loại Bayes đơn giản.

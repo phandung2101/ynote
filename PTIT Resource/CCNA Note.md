@@ -226,7 +226,6 @@ Router(config-router)# router-id <rid>
 
 Router(config-if)# **ip ospf** process-id **area** area-id
 ```
-
 # VLAN Config
 ## Cấu hình trên từng router
 ```bash
