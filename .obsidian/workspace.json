@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Patterns & Design Principles 📖/ACID Principle.md",
+                "file": "PTIT Resource/CCNA Note.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ACID Principle"
+              "title": "CCNA Note"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data Structure & Algorithm/Backtracking.md",
+                "file": "Patterns & Design Principles 📖/ACID Principle.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Backtracking"
+              "title": "Outline of ACID Principle"
             }
           },
           {
@@ -181,11 +181,11 @@
   },
   "active": "e2633b2bcd355c51",
   "lastOpenFiles": [
+    "Patterns & Design Principles 📖/ACID Principle.md",
     "Patterns & Design Principles 📖/OOP.md",
     "Patterns & Design Principles 📖/SOLID.md",
     "Patterns & Design Principles 📖/GOF.md",
     "Patterns & Design Principles 📖/CAP Theorem.md",
-    "Patterns & Design Principles 📖/ACID Principle.md",
     "Data Structure & Algorithm/_DSA Basic to Advanced.md",
     "2025-06-10.md",
     "Patterns & Design Principles 📖/Test Driven Development (TDD).md",

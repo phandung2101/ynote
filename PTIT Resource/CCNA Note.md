@@ -129,6 +129,8 @@ S1#
 ```bash
 interface vlan 1 
 ip address 128.107.20.10 255.255.255.0 
+// phải cấu hình default gateway
+ip default-gateway {ip-router} {subnet-mask}
 no shutdown 
 end
 ```
@@ -234,8 +236,26 @@ S1#show vlan brief
 // Add vlan và name
 S1#(config)# vlan 10
 S1#(config-vlan)# name Faculty/Staff
+```
+Cấu hình trong mạng có sử dụng VoIP. Đơn giản là ưu tiên cho các vlan này hơn.
+```bash
 // Config through IP Phone
 S3(config)# interface f0/11
+// Bật chế độ ưu tiên
 S3(config-if)# mls qos trust cos
 S3(config-if)# switchport voice vlan 150
+```
+Có thể dùng trunk mode để cấu hình trung gian
+```bash
+// Config switch trung gian nhằm chuyển tiếp traffic
+S3(config)# interface FastEthernet0/2 
+S3(config-if)# switchport mode trunk 
+S3(config-if)# switchport trunk allowed vlan 10
+ 
+// Hiển thị trunk 
+S2# show interfaces trunk
+```
+Native trunk vlan chẳng hạn
+```bash
+switchport trunk native vlan 99
 ```
