@@ -1,3 +1,4 @@
+> https://itexamanswers.net/14-3-5-packet-tracer-basic-router-configuration-review-instructions-answer.html
 # Cấu hình switch cơ bản
 
 - enable: truy cập privilege mode
@@ -5,106 +6,6 @@
 	- sử dụng `show running-config | include ip route` dùng include để lọc các dòng
 - enable password: set password cho privilege mode ở plaintext
 - enable secret: set password cho privilege mode ở secret encrypted
-
-Sample mẫu running config
-
-```bash
-S1#show running-config
-Building configuration...
-
-Current configuration : 1107 bytes
-!
-version 15.0
-no service timestamps log datetime msec
-no service timestamps debug datetime msec
-no service password-encryption
-!
-hostname S1
-!
-!
-!
-!
-!
-!
-!
-spanning-tree mode pvst
-spanning-tree extend system-id
-!
-interface FastEthernet0/1
-!
-interface FastEthernet0/2
-!
-interface FastEthernet0/3
-!
-interface FastEthernet0/4
-!
-interface FastEthernet0/5
-!
-interface FastEthernet0/6
-!
-interface FastEthernet0/7
-!
-interface FastEthernet0/8
-!
-interface FastEthernet0/9
-!
-interface FastEthernet0/10
-!
-interface FastEthernet0/11
-!
-interface FastEthernet0/12
-!
-interface FastEthernet0/13
-!
-interface FastEthernet0/14
-!
-interface FastEthernet0/15
-!
-interface FastEthernet0/16
-!
-interface FastEthernet0/17
-!
-interface FastEthernet0/18
-!
-interface FastEthernet0/19
-!
-interface FastEthernet0/20
-!
-interface FastEthernet0/21
-!
-interface FastEthernet0/22
-!
-interface FastEthernet0/23
-!
-interface FastEthernet0/24
-!
-interface GigabitEthernet0/1
-!
-interface GigabitEthernet0/2
-!
-interface Vlan1
- no ip address
- shutdown
-!
-!
-!
-!
-!
-!
-line con 0
- password letmein
- login
-!
-line vty 0 4
- login
-line vty 5 15
- login
-!
-!
-!
-!
-end
-```
 
 Những điểm lưu ý trong phần trên:
 
@@ -258,4 +159,9 @@ S2# show interfaces trunk
 Native trunk vlan chẳng hạn
 ```bash
 switchport trunk native vlan 99
+```
+# Wifi config
+```bash
+// Sử dụng command-line trên pc để renew IP
+ipconfig /renew
 ```
